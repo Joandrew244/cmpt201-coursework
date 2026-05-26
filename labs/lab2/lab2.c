@@ -3,6 +3,7 @@
 #include <string.h>
 #include <sys/wait.h>
 #include <unistd.h>
+#define _POSTIX_C_SOURCE 200809L
 
 int main() {
   char *line = NULL;
