@@ -9,7 +9,7 @@ int main() {
   size_t len = 0;
 
   while (1) {
-    printf("Enter program to run\n");
+    printf("Enter program to run\n> ");
     fflush(stdout);
 
     if (getline(&line, &len, stdin) == -1) {
